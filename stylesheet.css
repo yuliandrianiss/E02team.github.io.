@@ -1,0 +1,331 @@
+*{
+    box-sizing:border-box
+}
+
+body{
+    margin: 0;
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+  }
+  .clear {
+    clear: left;
+  }
+  .container{
+    width:1170px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .top-wrapper {
+    width:100%;
+    height: 100%;
+    padding: 140px 0 100px 0;
+    background-size: cover;
+    background-color: #f2f2f2;
+    color:#100d07;
+}
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  .top-wrapper h2{
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  header {
+    height: 80px;
+    width: 100%;
+    background-color: #C9C4C4;
+    top: 0;
+    z-index: 10;
+  }
+  main{
+    height: 100%;
+  }
+  .logo {
+    width: 130px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+  }
+  .header-left {
+    float: left;
+  }
+  .header-left a{
+    font: bold;
+    line-height: 65px;
+    margin-top: 5px;
+    margin-right: 30px;
+    color: #000000;
+    display: block;
+    float: right;
+    transition: all 0.5s;
+  }
+  .header-left a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .header-right {
+    float: right;
+  }
+
+  .header-right a {
+    line-height: 65px;
+    margin-top: 5px;
+    margin-right: 50px;
+    color: #000000;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .smartphones {
+    padding-top: 80px;
+    width: 130px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+  }
+  
+  .smartphone-icon1 {
+    position: relative;
+    
+  }
+  .smartphone-icon2 {
+    position: relative;
+  }
+  .smartphone-icon3 {
+  position: relative;
+  
+}
+  .smartphone-icon4 {
+  position: relative;
+}
+  
+  .smartphone-icon1 p {
+    top: 44%;
+    width: 100%;
+    color: black;
+  }
+  .smartphone-icon2 p {
+    top: 44%;
+    width: 100%;
+    color: black;
+  }
+  .smartphone-icon3 p {
+      top: 44%;
+      width: 100%;
+      color: black;
+    }
+  .smartphone-icon4 p {
+        top: 44%;
+        width: 100%;
+        color: black;
+      }
+  .smartphone-icon1 img {
+        align: middle;
+        height: 200px;
+        margin: 10px;
+        padding: 10px;
+        padding-bottom: 20px;
+        margin-left: 50px;
+      }
+  .smartphone-icon2 img {
+    align: middle;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+  }
+  .smartphone-icon3 img {
+    align: middle;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+  }
+  .smartphone-icon4 img {
+    align: middle;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 40px;
+    margin-left: 50px;
+  }
+  
+  .menu-icon{
+    color: white;
+    float: right;
+    font-size: 25px;
+    margin-right: 25px;
+    padding: 21px 0;
+   display: none;
+  }
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    margin-left: 30px;
+  }
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-left: 45px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.iphone {
+    padding: 15px 40px;
+    background-color: #b2b2b2;
+    cursor: pointer;
+    box-shadow: 0 7px #4D4C5C;
+}
+
+.iphone:active {
+  position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.samsung {
+    padding: 15px 40px;
+    background-color: #b2b2b2;
+    cursor: pointer;
+    box-shadow: 0 7px #4D4C5C;
+}
+
+.samsung:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+.asus {
+  padding: 15px 40px;
+  background-color: #b2b2b2;
+  cursor: pointer;
+  box-shadow: 0 7px #4D4C5C;
+}
+
+.asus:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+
+
+}.xiaomi {
+  padding: 15px 40px;
+  background-color: #b2b2b2;
+  cursor: pointer;
+  box-shadow: 0 7px #4D4C5C;
+}
+
+.xiaomi:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+footer {
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    z-index: 10px;
+    background-color: #C9C4C4;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-left a {
+    color: black;
+    line-height: 20px;
+    padding-top: 30px;
+    margin-top: 5px;
+    margin-right: 30px;
+    display: block;
+    font-size: 12px;
+    float: left;
+    transition: all 0.5s;
+}
+
+.footer-left a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 50px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.footer-right {
+    float: right;
+    padding: 30px 0px 0px 100px;
+}
+
+.fb {
+    width: 20px;
+    margin-right: 15px;
+    opacity: 0.8;
+}
+
+.tw {
+    width: 20px;
+    margin-right: 15px;
+    opacity: 0.8;
+}
+
+.ig {
+    width: 20px;
+    margin-right: 15px;
+    opacity: 0.8;
+}
+
+.yt {
+    width: 20px;
+    margin-right: 15px;
+    opacity: 0.8;
+}
+
+.fb:hover {
+    opacity: 1.0;
+}
+
+.tw:hover {
+    opacity: 1.0;
+}
+
+.ig:hover {
+    opacity: 1.0;
+}
+
+.yt:hover {
+    opacity: 1.2;
+}
